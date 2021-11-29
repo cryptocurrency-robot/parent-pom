@@ -148,4 +148,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>cryptocurrency-robot-github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/cryptocurrency-robot/parent-pom</url>
+        </repository>
+    </distributionManagement>
 </project>
